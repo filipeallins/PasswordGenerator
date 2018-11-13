@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="content">
+                    <input type="text" id="display">
+                    <br />
+                    <input type="range" min="0" max="20" name="slider" id="slider">
+                    <br />
+                    <input class="checkboxValue" type="checkbox" id="upper" name="upper" value="ABCDEFGHIJKLMNOPQRSTUVXZWY"> A-Z
+                    <input class="checkboxValue" type="checkbox" id="lower" name="lower" value="abcdefghijklmnopqrstuvxzwy"> a-z
+                    <input class="checkboxValue" type="checkbox" id="num" name="num" value="0123456789"> 0-9
+                    <input class="checkboxValue" type="checkbox" id="specialChar" name="specialChar" value="'!@#$%&*()-_+=`{[]}^~?/:;.,\"> !-@
+                    <br />
+                    <button onclick="generate()">Generate</button>
+                    <button onclick="copyPassword()">Copy to Clipboard</button>
+                    <div id="length"></div>
+                </div>
+                <!--
+                <div class="previous_passwords">
+                    <b>Previously Generated Passwords</b>
+                    <br />
+                    <div id="lastNums"></div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

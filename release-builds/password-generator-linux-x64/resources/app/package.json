@@ -1,0 +1,14 @@
+{
+  "name": "psswrd-creator",
+  "version": "1.0.0",
+  "description": "Creates random strings for passwords with numbers, special characters, uper and lower case letters.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Filipe Lins",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.8"
+  }
+}

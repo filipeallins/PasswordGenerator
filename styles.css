@@ -1,0 +1,35 @@
+input{
+    font-family: monospace;
+}
+
+body{
+    background-color: lightgray;
+}
+
+button{
+    border-radius: 5px;
+}
+
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-family: monospace;  
+}
+
+.previous_passwords{
+    margin-bottom: 20px;
+}
+
+#display{
+    width: 100%;
+}
+
+#length{
+    display: inline-block;
+    width: 80px;
+}
+
+#slider{
+    width: 100%;
+}
