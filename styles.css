@@ -7,7 +7,12 @@ body{
 }
 
 button{
-    border-radius: 5px;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .content{
@@ -22,6 +27,8 @@ button{
 }
 
 #display{
+    border: none;
+    border-radius: 5px;
     width: 100%;
 }
 

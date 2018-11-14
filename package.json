@@ -1,5 +1,5 @@
 {
-  "name": "psswrd-creator",
+  "name": "password-generator",
   "version": "1.0.0",
   "description": "Creates random strings for passwords with numbers, special characters, uper and lower case letters.",
   "main": "main.js",
@@ -10,5 +10,18 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^3.0.9"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipeaugustolins/PasswordGenerator.git"
+  },
+  "keywords": [
+    "password",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/filipeaugustolins/PasswordGenerator/issues"
+  },
+  "homepage": "https://github.com/filipeaugustolins/PasswordGenerator#readme"
 }
